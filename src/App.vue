@@ -65,44 +65,21 @@ export default {
     padding: 0;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
   
   ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
+    background-color: #F8F8F8;
   }
+  /*定义滚动条轨道 内阴影+圆角*/
   
-  ::scrollbar-corner ::-webkit-scrollbar-corner,
   ::-webkit-scrollbar-track {
+    background-color: #F8F8F8;
+  }
+  /*定义滑块 内阴影+圆角*/
+  
+  ::-webkit-scrollbar-thumb {
     background-color: #e2e2e2;
   }
-  
-  ::scrollbar-thumb ::-webkit-scrollbar-thumb {
-    border-radius: 0;
-    background-color: rgba(0, 0, 0, .3);
-  }
-  
-  ::scrollbar-track ::-webkit-scrollbar-corner,
-  ::-webkit-scrollbar-track {
-    background-color: #e2e2e2;
-  }
-
-  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
-::-webkit-scrollbar  
-{  
-    width: 10px;  
-    height: 10px;  
-    background-color: #e2e2e2;  
-}  
-  
-/*定义滚动条轨道 内阴影+圆角*/  
-::-webkit-scrollbar-track  
-{  
-    background-color: #e2e2e2;  
-}  
-  
-/*定义滑块 内阴影+圆角*/  
-::-webkit-scrollbar-thumb  
-{  
-    background-color: #999;  
-}  
 </style>
