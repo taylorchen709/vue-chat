@@ -1,28 +1,108 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <Heads>
+    </Heads>
+    <ChatList>
+    </ChatList>
+    <Foot>
+    </Foot>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Heads from './components/Heads'
+import Foot from './components/Foot'
+import ChatList from './components/ChatList'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Heads,
+    Foot,
+    ChatList
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  body {
+    /*background-color: #324057;*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  blockquote,
+  body,
+  button,
+  dd,
+  div,
+  dl,
+  dt,
+  form,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  input,
+  li,
+  ol,
+  p,
+  pre,
+  td,
+  textarea,
+  th,
+  ul {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::scrollbar-corner ::-webkit-scrollbar-corner,
+  ::-webkit-scrollbar-track {
+    background-color: #e2e2e2;
+  }
+  
+  ::scrollbar-thumb ::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, .3);
+  }
+  
+  ::scrollbar-track ::-webkit-scrollbar-corner,
+  ::-webkit-scrollbar-track {
+    background-color: #e2e2e2;
+  }
+
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 10px;  
+    height: 10px;  
+    background-color: #e2e2e2;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    background-color: #e2e2e2;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    background-color: #999;  
+}  
 </style>
