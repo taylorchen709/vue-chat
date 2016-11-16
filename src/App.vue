@@ -25,13 +25,15 @@ export default {
 </script>
 
 <style>
+  @import "./assets/font-awesome-4.7.0/css/font-awesome.min.css";
   body {
     /*background-color: #324057;*/
     margin: 0px;
     padding: 0px;
     font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
+    /*font-weight: 400;
+    -webkit-font-smoothing: antialiased;*/
+    overflow: hidden;
   }
   
   blockquote,
@@ -65,6 +67,11 @@ export default {
     padding: 0;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
+  
+  ul,
+  li {
+    list-style: none;
+  }
   /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
   
   ::-webkit-scrollbar {
@@ -81,5 +88,9 @@ export default {
   
   ::-webkit-scrollbar-thumb {
     background-color: #e2e2e2;
+  }
+  
+  #app {
+    overflow: hidden;
   }
 </style>
