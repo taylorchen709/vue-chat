@@ -4,21 +4,17 @@
     </Heads>
     <ChatList>
     </ChatList>
-    <Foot>
-    </Foot>
   </div>
 </template>
 
 <script>
 import Heads from './components/Heads'
-import Foot from './components/Foot'
 import ChatList from './components/ChatList'
 
 export default {
   name: 'app',
   components: {
     Heads,
-    Foot,
     ChatList
   }
 }
