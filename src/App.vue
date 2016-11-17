@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style>
-  @import "./assets/font-awesome-4.7.0/css/font-awesome.min.css";
+  @import "../node_modules/font-awesome/css/font-awesome.min.css";
   body {
     /*background-color: #324057;*/
     margin: 0px;
