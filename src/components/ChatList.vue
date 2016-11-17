@@ -292,7 +292,7 @@ export default {
     }
     
     .chatlist ul {
-        min-height: 500px;
+        min-height: 300px;
     }
     
     .chatlist ul .chat-mine {
