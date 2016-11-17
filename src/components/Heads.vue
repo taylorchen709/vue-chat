@@ -2,7 +2,7 @@
   <section class="top">
     <img class="head" src="../assets/default.png" />
     <span class="name">客服MM</span>
-    <span class="voice"><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+    <span class="voice"><i class="fa" aria-hidden="true" :class="vociceOpen?'fa-volume-up':'fa-volume-down'" v-on:click="vociceOpen=vociceOpen?false:true"></i></span>
     <!--fa fa-volume-off-->
   </section>
 </template>
@@ -12,6 +12,7 @@ export default {
   name: 'heads',
   data () {
     return {
+      vociceOpen:true
     }
   }
 }
