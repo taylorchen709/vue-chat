@@ -1,6 +1,6 @@
 # vue-chat
 
-> A Vue.js project
+> 一个会话界面
 
 ## Build Setup
 
@@ -24,4 +24,8 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## screenshots
+![image](https://github.com/taylorchen709/vue-chat/blob/master/screenshots/main.png)
+![image](https://github.com/taylorchen709/vue-chat/blob/master/screenshots/face.png)
+
+
