@@ -26,7 +26,7 @@
             <span class="btn-plus" v-on:click="showSelBox=showSelBox==2?0:2"><i class="fa" aria-hidden="true" :class="showSelBox==2?'fa-minus-circle':'fa-plus-circle'"></i></span>
             <span class="btn btn-send" v-on:click="sendMsg">发送</span>
             <section class="selbox" :class="showSelBox>0?'show':'hide'">
-                <section v-if="showSelBox==1" class="face-box">
+                <section v-show="showSelBox==1" class="face-box">
                     <mt-swipe :auto="0" :continuous="false">
                         <mt-swipe-item v-for="n in Math.ceil(EXPS.length/18)">
                             <li v-for="(item, index) in getEXP(n,18)">
@@ -35,8 +35,7 @@
                         </mt-swipe-item>
                     </mt-swipe>
                 </section>
-                <div v-if="showSelBox==2">{{selOther}}</div>
-                <div v-else></div>
+                <div v-show="showSelBox==2">{{selOther}}</div>
             </section>
         </section>
 
