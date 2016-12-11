@@ -1,6 +1,6 @@
 # vue-chat
 
-> 一个会话界面
+> 一个聊天界面，基于[vuejs2.0](http://vuejs.org/)、[mint-ui](http://mint-ui.github.io/).
 
 ## Build Setup
 
