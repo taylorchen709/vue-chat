@@ -24,6 +24,9 @@ npm run e2e
 npm test
 ```
 
+## 手机扫码体验
+![image](screenshots/code.png)
+
 ## screenshots
 ![image](https://github.com/taylorchen709/vue-chat/blob/master/screenshots/main.png)
 ![image](https://github.com/taylorchen709/vue-chat/blob/master/screenshots/face.png)
